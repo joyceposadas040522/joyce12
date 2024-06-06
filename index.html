@@ -12,6 +12,17 @@
   <div class="container"> 
     <div class="row">
       <div class="col-6">
+        <script>
+          const btnLike1 = document.getElementById("btnLike1")
+          const count1 = document.getElementById("count1")
+
+          function countLike1() {
+          let likeCounts = parseInt(count1.value) + 1
+          count1.textContent = likeCounts.toString()
+}
+btnLike1.addEventListener("click", countLike1)
+        </script>
+          
           <h1>Joyce</h1>
   
           <img src="IMG_0021.jpeg" alt="ako" class="img-thumbnail" style="width:600px; height:600px;"/>
